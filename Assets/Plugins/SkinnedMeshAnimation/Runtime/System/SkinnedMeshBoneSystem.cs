@@ -1,12 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System.Runtime.InteropServices;
 using Unity.Burst;
-using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
-using UnityEngine.Profiling;
 
 [BurstCompile]
+// ReSharper disable once CheckNamespace
 internal partial struct SkinnedMeshBoneSystem : ISystem
 {
     [BurstCompile]
@@ -30,17 +29,10 @@ internal partial struct SkinnedMeshBoneSystem : ISystem
     }
 
     [BurstCompile, WithAll(typeof(LocalTransform), typeof(SkinnedMeshAnimationController), typeof(SkinnedMeshAnimationCurve), typeof(BoneTag))]
+    [StructLayout(LayoutKind.Auto)]
     internal partial struct BoneAnimationJob : IJobEntity
     {
         public float time;
-
-        private struct FrameInfoSortByLayer : IComparer<FrameInfo>
-        {
-            int IComparer<FrameInfo>.Compare(FrameInfo x, FrameInfo y)
-            {
-                return x.layer.CompareTo(y.layer);
-            }
-        }
 
         public void Execute(ref LocalTransform localTransform, ref DynamicBuffer<SkinnedMeshAnimationCurve> curves, ref SkinnedMeshAnimationController controller)
         {
@@ -67,7 +59,7 @@ internal partial struct SkinnedMeshBoneSystem : ISystem
                     {
                         curves.RemoveAt(i);
 
-                        UpdateControllerLowerLayer(ref controller, curve.layer, ref curves, time);
+                        UpdateControllerLowerLayer(ref controller, curve.layer, ref curves);
                         continue;
                     }
                 }
@@ -176,7 +168,7 @@ internal partial struct SkinnedMeshBoneSystem : ISystem
             }
         }
 
-        private static void UpdateControllerLowerLayer(ref SkinnedMeshAnimationController controller, int currentLayer, ref DynamicBuffer<SkinnedMeshAnimationCurve> curves, float time)
+        private static void UpdateControllerLowerLayer(ref SkinnedMeshAnimationController controller, int currentLayer, ref DynamicBuffer<SkinnedMeshAnimationCurve> curves)
         {
             if (controller.currentLayer != currentLayer)
             {

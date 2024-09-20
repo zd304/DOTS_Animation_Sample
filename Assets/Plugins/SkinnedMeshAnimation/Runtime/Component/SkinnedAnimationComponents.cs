@@ -156,4 +156,5 @@ internal struct BoneTag : IComponentData { }
 
 internal struct RootTag : IComponentData { }
 
+[BakingType]
 internal struct BoneBakedTag : IComponentData { }

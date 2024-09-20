@@ -1,10 +1,8 @@
 ﻿using Unity.Collections;
 using Unity.Entities;
-using Unity.Entities.Hybrid.Baking;
-using Unity.Rendering;
-using Unity.Transforms;
 using UnityEngine;
 
+// ReSharper disable once CheckNamespace
 public class SkinnedMeshAnimationAuthoring : MonoBehaviour
 {
     /// <summary>
@@ -73,42 +71,41 @@ internal class SkinnedMeshAnimationBaker : Baker<SkinnedMeshAnimationAuthoring>
     }
 }
 
-//[WorldSystemFilter(WorldSystemFilterFlags.BakingSystem)]
+[WorldSystemFilter(WorldSystemFilterFlags.BakingSystem)]
 public partial class ComputeSkinMatricesBakingSystem : SystemBase
 {
     protected override void OnUpdate()
     {
         var ecb = new EntityCommandBuffer(Allocator.TempJob);
 
-        // 只有有蒙皮数据被烘焙完成后，这个Job才会被执行
-        Entities
-            .WithAll<BoneBakedTag>()
-            .ForEach((Entity entity, in RootEntity rootEntity, in DynamicBuffer<BoneEntity> bones) =>
-            {
-                // 在骨骼的Entity上绑RootTag，标记这个Entity是根骨骼
-                ecb.AddComponent<RootTag>(rootEntity.value);
+        foreach (var (rootEntityRef, bonesBuffer, entity) in SystemAPI.Query<RefRO<RootEntity>, DynamicBuffer<BoneEntity>>()
+                     .WithEntityAccess().WithAll<BoneBakedTag>().WithOptions(EntityQueryOptions.IncludeDisabledEntities))
+        {
+            RootEntity rootEntity = rootEntityRef.ValueRO;
+            
+            // 在骨骼的Entity上绑RootTag，标记这个Entity是根骨骼
+            ecb.AddComponent<RootTag>(rootEntity.value);
 
-                // 给所有骨骼加上一个Tag，以便当计算SkinMatrices的时候可以获取到
-                for (int boneIndex = 0; boneIndex < bones.Length; ++boneIndex)
-                {
-                    // 获取所有骨骼的Entity
-                    var boneEntity = bones[boneIndex].entity;
+            // 给所有骨骼加上一个Tag，以便当计算SkinMatrices的时候可以获取到
+            for (int boneIndex = 0; boneIndex < bonesBuffer.Length; ++boneIndex)
+            {
+                // 获取所有骨骼的Entity
+                var boneEntity = bonesBuffer[boneIndex].entity;
                     
-                    // 调试用，这个组件可有可无
-                    ecb.AddComponent(boneEntity, new BoneIndex { value = boneIndex });
-                    // 在骨骼的Entity上绑BoneTag，标记这个Entity是非根骨骼
-                    ecb.AddComponent(boneEntity, new BoneTag());
-                    // 在骨骼的Entity上绑SkinnedMeshAnimationController，用来控制骨骼随着动画帧运动
-                    ecb.AddComponent(boneEntity, new SkinnedMeshAnimationController() { enable = false });
+                // 调试用，这个组件可有可无
+                ecb.AddComponent(boneEntity, new BoneIndex { value = boneIndex });
+                // 在骨骼的Entity上绑BoneTag，标记这个Entity是非根骨骼
+                ecb.AddComponent(boneEntity, new BoneTag());
+                // 在骨骼的Entity上绑SkinnedMeshAnimationController，用来控制骨骼随着动画帧运动
+                ecb.AddComponent(boneEntity, new SkinnedMeshAnimationController() { enable = false });
                     
-                    // 骨骼当前受影响的动画曲线（AnimationCurve）
-                    DynamicBuffer<SkinnedMeshAnimationCurve> buffer = ecb.AddBuffer<SkinnedMeshAnimationCurve>(boneEntity);
-                }
-                // 移除BoneBakedTag，避免这个Entity重复执行本Job
-                ecb.RemoveComponent<BoneBakedTag>(entity);
-                ecb.SetName(rootEntity.value, "RootBone");
-                ecb.SetName(entity, "SkinnedMesh");
-            }).WithEntityQueryOptions(EntityQueryOptions.IncludeDisabledEntities).WithStructuralChanges().Run();
+                // 骨骼当前受影响的动画曲线（AnimationCurve）
+                ecb.AddBuffer<SkinnedMeshAnimationCurve>(boneEntity);
+            }
+            // 移除BoneBakedTag，避免这个Entity重复执行本Job
+            ecb.SetName(rootEntity.value, "RootBone");
+            ecb.SetName(entity, "SkinnedMesh");
+        }
         
         ecb.Playback(EntityManager);
         ecb.Dispose();

@@ -7,7 +7,6 @@ using Unity.Rendering;
 using Unity.Transforms;
 
 [RequireMatchingQueriesForUpdate]
-[WorldSystemFilter(WorldSystemFilterFlags.Default | WorldSystemFilterFlags.Editor)]
 [UpdateInGroup(typeof(PresentationSystemGroup))]
 [UpdateBefore(typeof(DeformationsInPresentation))]
 // ReSharper disable once CheckNamespace
