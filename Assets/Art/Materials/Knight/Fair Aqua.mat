@@ -109,6 +109,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ColorLerp: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -133,6 +134,7 @@ Material:
     - _RampSmoothOtherLights: 0.5
     - _RampThreshold: 0.35
     - _RampThresholdOtherLights: 0.5
+    - _ReceiveShadowOff: 0
     - _ReceiveShadows: 1
     - _RimMax: 0.85
     - _RimMin: 0.6

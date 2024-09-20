@@ -6,6 +6,9 @@ Shader "Custom/Character/CharacterBodyUnlitDOTS-Manual"
         [NoScaleOffset]_MainTex("MainTex", 2D) = "white" {}
         _ColorLerp("ColorLerp", Range(0, 1)) = 0
         _SkinMatrixIndex("Skin Matrix Index Offset", Int) = 0
+        
+        [Header(Shadow)]
+        [Toggle(_RECEIVE_SHADOWS_OFF)] _ReceiveShadowOff("关闭接收阴影", Float) = 0
     }
 
     SubShader
@@ -44,12 +47,14 @@ Shader "Custom/Character/CharacterBodyUnlitDOTS-Manual"
             #pragma vertex vert
             #pragma fragment frag
 
+            #pragma shader_feature_local _ _RECEIVE_SHADOWS_OFF
+            #pragma multi_compile _ _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN
+
             // Includes
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
             #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-            #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
 
             struct Attributes
             {
@@ -69,6 +74,12 @@ Shader "Custom/Character/CharacterBodyUnlitDOTS-Manual"
                 float4 positionCS : SV_POSITION;
                 half4 texCoord0 : TEXCOORD0;
                 half3 normalWS : TEXCOORD1;
+
+                float3 positionWS : TEXCOORD2;
+
+                #if defined(REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR) && !defined(_RECEIVE_SHADOWS_OFF)
+                    float4 shadowCoord  : TEXCOORD3;
+                #endif
                 
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
@@ -155,6 +166,16 @@ Shader "Custom/Character/CharacterBodyUnlitDOTS-Manual"
                 half3 positionWS = TransformObjectToWorld(linearBlendSkinnedPosition);
                 half3 normalWS = TransformObjectToWorldNormal(linearBlendSkinnedNormal);
 
+                // 计算阴影坐标
+                #if defined(REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR) && !defined(_RECEIVE_SHADOWS_OFF)
+                    #if defined(_MAIN_LIGHT_SHADOWS_SCREEN) && !defined(_SURFACE_TYPE_TRANSPARENT)
+                        output.shadowCoord = ComputeScreenPos(output.positionCS);
+                    #else
+                        output.shadowCoord = TransformWorldToShadowCoord(positionWS);
+                    #endif
+                #endif
+
+                output.positionWS = positionWS;
                 output.normalWS = normalWS;
                 output.positionCS = TransformWorldToHClip(positionWS);
                 output.texCoord0 = input.uv0;
@@ -165,15 +186,29 @@ Shader "Custom/Character/CharacterBodyUnlitDOTS-Manual"
             {
                 UNITY_SETUP_INSTANCE_ID(input);
 
-                half3 worldSpaceNormal = input.normalWS.xyz;
+                half3 normalWS = input.normalWS.xyz;
+
+                // 计算阴影坐标
+                #if defined(REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR)
+                    half4 shadowCoord = input.shadowCoord;
+                #elif defined(MAIN_LIGHT_CALCULATE_SHADOWS)
+                    half4 shadowCoord = TransformWorldToShadowCoord(input.positionWS);
+                #else
+                    half4 shadowCoord = half4(0, 0, 0, 0);
+                #endif
 
                 half3 mainTexColor = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, input.texCoord0.xy).rgb;
                 mainTexColor = saturate(mainTexColor);
 
-                half3 mainLightDir = half3(0.5h, 0.5h, 0.0h);
-
-                half dotProduct = dot(mainLightDir, worldSpaceNormal);
-                half3 diffuse = saturate(dotProduct * mainTexColor);
+                #ifdef _RECEIVE_SHADOWS_OFF
+                    Light mainLight = GetMainLight();
+                    half dotProduct = dot(mainLight.direction, normalWS);
+                    half3 diffuse = saturate(dotProduct * mainTexColor * mainLight.color);
+                #else
+                    Light mainLight = GetMainLight(shadowCoord);
+                    const half3 attenuatedLightColor = mainLight.color * (mainLight.distanceAttenuation * mainLight.shadowAttenuation);
+                    const half3 diffuse = saturate(dot(mainLight.direction, normalWS)) * attenuatedLightColor * mainTexColor;
+                #endif
 
                 half3 ambient = mainTexColor * 0.4h;
 
@@ -188,6 +223,5 @@ Shader "Custom/Character/CharacterBodyUnlitDOTS-Manual"
         }
     }
     CustomEditor "UnityEditor.ShaderGraph.GenericShaderGraphMaterialGUI"
-    CustomEditorForRenderPipeline "UnityEditor.ShaderGraphUnlitGUI" "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset"
     FallBack "Hidden/Shader Graph/FallbackError"
 }
