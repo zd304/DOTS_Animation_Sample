@@ -102,9 +102,8 @@ public partial class ComputeSkinMatricesBakingSystem : SystemBase
                 // 骨骼当前受影响的动画曲线（AnimationCurve）
                 ecb.AddBuffer<SkinnedMeshAnimationCurve>(boneEntity);
             }
-            // 移除BoneBakedTag，避免这个Entity重复执行本Job
-            ecb.SetName(rootEntity.value, "RootBone");
-            ecb.SetName(entity, "SkinnedMesh");
+            // ecb.SetName(rootEntity.value, "RootBone");
+            // ecb.SetName(entity, "SkinnedMesh");
         }
         
         ecb.Playback(EntityManager);
