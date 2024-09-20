@@ -1,0 +1,3786 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6ac7a38961711408a36b0fb5be0fcd, type: 3}
+  m_Name: Knight@SwordIdle
+  m_EditorClassIdentifier: 
+  length: 2.5333335
+  wrapType: 1
+  posXCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 1
+      value: 0.030096358
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 1
+    keyframes:
+    - time: 1
+      value: -0.17131469
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 2
+    keyframes:
+    - time: 1
+      value: -0.14668107
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 3
+    keyframes:
+    - time: 1
+      value: -0.050812453
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 1
+      value: -0.14642449
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 5
+    keyframes:
+    - time: 1
+      value: -0.12812133
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 6
+    keyframes:
+    - time: 1
+      value: -0.10970802
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: 0.008935798
+      inTangent: -0.0018786368
+      outTangent: -0.0018786368
+    - time: 0.1
+      value: 0.008694357
+      inTangent: 0.00038963236
+      outTangent: 0.00038950055
+    - time: 0.13333334
+      value: 0.008769544
+      inTangent: 0.00025564557
+      outTangent: 0.0002556165
+    - time: 0.26666668
+      value: 0.008473006
+      inTangent: -0.0021884206
+      outTangent: -0.0021883529
+    - time: 0.46666667
+      value: 0.007970318
+      inTangent: -0.0014384268
+      outTangent: -0.001438536
+    - time: 0.5
+      value: 0.0079357065
+      inTangent: -0.0042554513
+      outTangent: -0.004255273
+    - time: 0.56666666
+      value: 0.007530924
+      inTangent: -0.0027734546
+      outTangent: -0.0027734146
+    - time: 0.6666667
+      value: 0.007515058
+      inTangent: -0.0013523737
+      outTangent: -0.0013523323
+    - time: 0.8
+      value: 0.00721321
+      inTangent: -0.0020148493
+      outTangent: -0.0020149
+    - time: 0.96666664
+      value: 0.006849211
+      inTangent: -0.0016091163
+      outTangent: -0.0016090334
+    - time: 1.0666667
+      value: 0.006905096
+      inTangent: 0.0021328533
+      outTangent: 0.0021328782
+    - time: 1.2
+      value: 0.006914369
+      inTangent: -0.00073205977
+      outTangent: -0.00073201366
+    - time: 1.3666667
+      value: 0.0066941003
+      inTangent: -0.0009061182
+      outTangent: -0.00090614374
+    - time: 1.5
+      value: 0.0065633464
+      inTangent: -0.00084254134
+      outTangent: -0.0008425566
+    - time: 1.6
+      value: 0.0064274166
+      inTangent: -0.0004748383
+      outTangent: -0.0004748765
+    - time: 1.8333334
+      value: 0.006418904
+      inTangent: 0.0013010313
+      outTangent: 0.0013010332
+    - time: 2.0333333
+      value: 0.006985107
+      inTangent: 0.0032404228
+      outTangent: 0.0032405183
+    - time: 2.2666667
+      value: 0.008123723
+      inTangent: 0.0058443914
+      outTangent: 0.0058443374
+    - time: 2.5
+      value: 0.008857021
+      inTangent: 0.0020253249
+      outTangent: 0.0020254287
+    - time: 2.5333333
+      value: 0.008934303
+      inTangent: 0.0023185136
+      outTangent: 0.0023185136
+  - boneIndex: 8
+    keyframes:
+    - time: 1
+      value: -0.1466811
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 9
+    keyframes:
+    - time: 1
+      value: 0.030096358
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 10
+    keyframes:
+    - time: 1
+      value: -0.27621734
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 11
+    keyframes:
+    - time: 1
+      value: -0.20861335
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 12
+    keyframes:
+    - time: 1
+      value: -0.03561676
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 1
+      value: -0.03561699
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 1
+      value: -0.20861332
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 15
+    keyframes:
+    - time: 1
+      value: -0.27621734
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 16
+    keyframes:
+    - time: 1
+      value: -0.05138335
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 1
+      value: -0.13877101
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 1
+      value: -0.040451143
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: -0.053491075
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: -0.03831825
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 1
+      value: -0.051383447
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 1
+      value: -0.13877112
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 23
+    keyframes:
+    - time: 1
+      value: -0.04045116
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: -0.05349116
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: -0.038318213
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 1
+      value: 0.061012648
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 27
+    keyframes:
+    - time: 1
+      value: 0.06101242
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 28
+    keyframes:
+    - time: 1
+      value: -0.25720719
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 29
+    keyframes:
+    - time: 1
+      value: -0.20310444
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 30
+    keyframes:
+    - time: 1
+      value: -0.13313864
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: -0.05733176
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 1
+      value: -0.2570285
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 33
+    keyframes:
+    - time: 1
+      value: -0.20291302
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 34
+    keyframes:
+    - time: 1
+      value: -0.12765375
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: -0.057583522
+      inTangent: 0
+      outTangent: 0
+  posYCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 1
+      value: -0.031506512
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 1
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 2
+    keyframes:
+    - time: 1
+      value: -0.00000004529953
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 3
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 1
+      value: 0.0000000023841857
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 5
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 6
+    keyframes:
+    - time: 1
+      value: -0.0049213637
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: 0.41391665
+      inTangent: 0.010328672
+      outTangent: 0.010328672
+    - time: 0.1
+      value: 0.4151124
+      inTangent: 0.014836609
+      outTangent: 0.014836497
+    - time: 0.13333334
+      value: 0.4156324
+      inTangent: 0.015386903
+      outTangent: 0.015384836
+    - time: 0.26666668
+      value: 0.41768622
+      inTangent: 0.015151479
+      outTangent: 0.015158188
+    - time: 0.46666667
+      value: 0.42051458
+      inTangent: 0.012711387
+      outTangent: 0.012705011
+    - time: 0.5
+      value: 0.42088377
+      inTangent: 0.009816741
+      outTangent: 0.0098217465
+    - time: 0.56666666
+      value: 0.42140096
+      inTangent: 0.0048903367
+      outTangent: 0.004895669
+    - time: 0.6666667
+      value: 0.4214294
+      inTangent: -0.0023538838
+      outTangent: -0.0023649505
+    - time: 0.8
+      value: 0.42062813
+      inTangent: -0.010648063
+      outTangent: -0.010656201
+    - time: 0.96666664
+      value: 0.41823268
+      inTangent: -0.013441314
+      outTangent: -0.013438729
+    - time: 1.0666667
+      value: 0.41724753
+      inTangent: -0.007801252
+      outTangent: -0.0078050946
+    - time: 1.2
+      value: 0.4164735
+      inTangent: -0.0030827571
+      outTangent: -0.0030845122
+    - time: 1.3666667
+      value: 0.41715407
+      inTangent: 0.011874999
+      outTangent: 0.011877451
+    - time: 1.5
+      value: 0.41911307
+      inTangent: 0.016967133
+      outTangent: 0.016958632
+    - time: 1.6
+      value: 0.4207947
+      inTangent: 0.015557383
+      outTangent: 0.015561198
+    - time: 1.8333334
+      value: 0.4231047
+      inTangent: 0.00060353783
+      outTangent: 0.00061166007
+    - time: 2.0333333
+      value: 0.42159644
+      inTangent: -0.017898573
+      outTangent: -0.017899064
+    - time: 2.2666667
+      value: 0.41731536
+      inTangent: -0.017792307
+      outTangent: -0.017796775
+    - time: 2.5
+      value: 0.4141943
+      inTangent: -0.008964055
+      outTangent: -0.008964819
+    - time: 2.5333333
+      value: 0.4139166
+      inTangent: -0.008338117
+      outTangent: -0.008338117
+  - boneIndex: 8
+    keyframes:
+    - time: 1
+      value: 0.00000004053116
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 9
+    keyframes:
+    - time: 1
+      value: -0.031506512
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 10
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 11
+    keyframes:
+    - time: 1
+      value: -0.00000022888183
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 12
+    keyframes:
+    - time: 1
+      value: 0.00009338379
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 1
+      value: 0.00009330749
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 1
+      value: 0.00000017166137
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 15
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 16
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 1
+      value: 0.00067565916
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 1
+      value: 0.000000076293944
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 1
+      value: 0.00067558285
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 23
+    keyframes:
+    - time: 1
+      value: -0.000000076293944
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 1
+      value: -0.0036894195
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 27
+    keyframes:
+    - time: 1
+      value: 0.000443881
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 28
+    keyframes:
+    - time: 1
+      value: 0.0000071310997
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 29
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 30
+    keyframes:
+    - time: 1
+      value: -0.000051312447
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: 0.0000000011920929
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 1
+      value: 0.0000067472456
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 33
+    keyframes:
+    - time: 1
+      value: 5.9604643e-10
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 34
+    keyframes:
+    - time: 1
+      value: -0.00000377655
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.0000000023841857
+      inTangent: 0
+      outTangent: 0
+  posZCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 1
+      value: -0.06875161
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 1
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 2
+    keyframes:
+    - time: 1
+      value: -0.000000076293944
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 3
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 1
+      value: 9.094947e-15
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 5
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 6
+    keyframes:
+    - time: 1
+      value: 7.3929185e-10
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: -0.0138045605
+      inTangent: 0.004656329
+      outTangent: 0.004656329
+    - time: 0.1
+      value: -0.013337542
+      inTangent: 0.005383055
+      outTangent: 0.0053828955
+    - time: 0.13333334
+      value: -0.013149781
+      inTangent: 0.005237971
+      outTangent: 0.005238233
+    - time: 0.26666668
+      value: -0.012428773
+      inTangent: 0.0059079
+      outTangent: 0.0059079025
+    - time: 0.46666667
+      value: -0.011525669
+      inTangent: 0.002542516
+      outTangent: 0.0025424256
+    - time: 0.5
+      value: -0.011463991
+      inTangent: 0.0010558858
+      outTangent: 0.0010562768
+    - time: 0.56666666
+      value: -0.011479723
+      inTangent: -0.00070024614
+      outTangent: -0.00070045097
+    - time: 0.6666667
+      value: -0.011554251
+      inTangent: -0.0009623586
+      outTangent: -0.0009626209
+    - time: 0.8
+      value: -0.011820858
+      inTangent: -0.004183835
+      outTangent: -0.0041838526
+    - time: 0.96666664
+      value: -0.013039864
+      inTangent: -0.008580953
+      outTangent: -0.008581075
+    - time: 1.0666667
+      value: -0.013683132
+      inTangent: -0.005306619
+      outTangent: -0.0053068153
+    - time: 1.2
+      value: -0.013798369
+      inTangent: 0.0031703503
+      outTangent: 0.0031704856
+    - time: 1.3666667
+      value: -0.012968783
+      inTangent: 0.008022739
+      outTangent: 0.008022825
+    - time: 1.5
+      value: -0.011517921
+      inTangent: 0.012601057
+      outTangent: 0.0126009
+    - time: 1.6
+      value: -0.010290099
+      inTangent: 0.010114151
+      outTangent: 0.010114228
+    - time: 1.8333334
+      value: -0.00943602
+      inTangent: -0.0047314945
+      outTangent: -0.0047314866
+    - time: 2.0333333
+      value: -0.01105647
+      inTangent: -0.010163124
+      outTangent: -0.010163089
+    - time: 2.2666667
+      value: -0.013417986
+      inTangent: -0.008154392
+      outTangent: -0.00815431
+    - time: 2.5
+      value: -0.013923245
+      inTangent: 0.004021467
+      outTangent: 0.0040215524
+    - time: 2.5333333
+      value: -0.013780927
+      inTangent: 0.004269508
+      outTangent: 0.004269508
+  - boneIndex: 8
+    keyframes:
+    - time: 1
+      value: -0.000000076293944
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 9
+    keyframes:
+    - time: 1
+      value: 0.06875161
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 10
+    keyframes:
+    - time: 1
+      value: 0.000000076293944
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 11
+    keyframes:
+    - time: 1
+      value: 0.000000076293944
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 12
+    keyframes:
+    - time: 1
+      value: 0.05246233
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 1
+      value: -0.052462365
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 1
+      value: -0.000000076293944
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 15
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 16
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 1
+      value: -0.007317886
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 1
+      value: -0.000000038146972
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: -0.000000038146972
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 0.000000095367426
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 1
+      value: -0.000000038146972
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 1
+      value: 0.007317581
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 23
+    keyframes:
+    - time: 1
+      value: -0.000000038146972
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 0.000000095367426
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 1
+      value: 0.11560108
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 27
+    keyframes:
+    - time: 1
+      value: -0.115600996
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 28
+    keyframes:
+    - time: 1
+      value: -0.00000037193297
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 29
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 30
+    keyframes:
+    - time: 1
+      value: -0.0000045490265
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: -0.000000009536743
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 1
+      value: 0.0000004196167
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 33
+    keyframes:
+    - time: 1
+      value: 0
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 34
+    keyframes:
+    - time: 1
+      value: 0.0000016212463
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.000000009536743
+      inTangent: 0
+      outTangent: 0
+  rotXCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 0
+      value: -0.038580768
+      inTangent: 0.020842997
+      outTangent: 0.020842997
+    - time: 0.6333334
+      value: -0.037746504
+      inTangent: -0.02995687
+      outTangent: -0.02995687
+    - time: 1.2666668
+      value: -0.040363945
+      inTangent: 0.04044958
+      outTangent: 0.04044958
+    - time: 1.9000001
+      value: -0.043165866
+      inTangent: -0.05422387
+      outTangent: -0.05422387
+    - time: 2.3666668
+      value: -0.047742054
+      inTangent: 0.05401147
+      outTangent: 0.05401147
+    - time: 2.5333335
+      value: -0.0385811
+      inTangent: 0.054739244
+      outTangent: 0.054739244
+  - boneIndex: 1
+    keyframes:
+    - time: 0
+      value: 0.007009873
+      inTangent: 0.00072003336
+      outTangent: 0.00072003336
+    - time: 1.2666668
+      value: 0.006380741
+      inTangent: -0.0009533786
+      outTangent: -0.0009533786
+    - time: 2.5333335
+      value: 0.006988496
+      inTangent: -0.0017962017
+      outTangent: -0.0017962017
+  - boneIndex: 2
+    keyframes:
+    - time: 0
+      value: 0.03426195
+      inTangent: 0.04940595
+      outTangent: 0.04940595
+    - time: 0.73333335
+      value: 0.037238095
+      inTangent: -0.047829658
+      outTangent: -0.047829658
+    - time: 1.3000001
+      value: 0.034868736
+      inTangent: 0.06995364
+      outTangent: 0.06995364
+    - time: 1.6333334
+      value: 0.05258709
+      inTangent: 0.00942708
+      outTangent: 0.00942708
+    - time: 2.1000001
+      value: 0.04268946
+      inTangent: -0.019621048
+      outTangent: -0.019621048
+    - time: 2.4666667
+      value: 0.03353856
+      inTangent: -0.02600722
+      outTangent: -0.02600722
+    - time: 2.5333335
+      value: 0.034261957
+      inTangent: 0.039342344
+      outTangent: 0.039342344
+  - boneIndex: 3
+    keyframes:
+    - time: 0
+      value: 0.12315293
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.12315293
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 0
+      value: -0.025059512
+      inTangent: 0.0017796456
+      outTangent: 0.0017796456
+    - time: 1.2666668
+      value: -0.025675356
+      inTangent: -0.00009044148
+      outTangent: -0.00009044148
+    - time: 2.5333335
+      value: -0.025071634
+      inTangent: -0.0014896891
+      outTangent: -0.0014896891
+  - boneIndex: 5
+    keyframes:
+    - time: 0
+      value: -0.022300506
+      inTangent: 0.0026391817
+      outTangent: 0.0026391817
+    - time: 1.2666668
+      value: -0.022985572
+      inTangent: 0.0004940283
+      outTangent: 0.0004940283
+    - time: 2.5333335
+      value: -0.022287134
+      inTangent: -0.0014282777
+      outTangent: -0.0014282777
+  - boneIndex: 6
+    keyframes:
+    - time: 0
+      value: -0.0010456071
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: -0.0010456071
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: 0.18530637
+      inTangent: -0.018311886
+      outTangent: -0.018311886
+    - time: 1.1333334
+      value: 0.18658258
+      inTangent: 0.00020428002
+      outTangent: 0.00020428002
+    - time: 2.0333335
+      value: 0.18645608
+      inTangent: 0.011332968
+      outTangent: 0.011332968
+    - time: 2.5333335
+      value: 0.18540016
+      inTangent: -0.0068794256
+      outTangent: -0.0068794256
+  - boneIndex: 8
+    keyframes:
+    - time: 0
+      value: 0.07799564
+      inTangent: -0.012255683
+      outTangent: -0.012255683
+    - time: 0.6666667
+      value: 0.08549922
+      inTangent: -0.006883105
+      outTangent: -0.006883105
+    - time: 1.2666668
+      value: 0.07853655
+      inTangent: -0.009475784
+      outTangent: -0.009475784
+    - time: 1.7666668
+      value: 0.08268568
+      inTangent: 0.016689837
+      outTangent: 0.016689837
+    - time: 2.3666668
+      value: 0.079984695
+      inTangent: -0.011682708
+      outTangent: -0.011682708
+    - time: 2.5333335
+      value: 0.07799561
+      inTangent: -0.0121826045
+      outTangent: -0.0121826045
+  - boneIndex: 9
+    keyframes:
+    - time: 0
+      value: -0.02348938
+      inTangent: -0.032231156
+      outTangent: -0.032231156
+    - time: 0.73333335
+      value: -0.02841212
+      inTangent: 0.04192704
+      outTangent: 0.04192704
+    - time: 1.3666668
+      value: -0.024740297
+      inTangent: -0.022745222
+      outTangent: -0.022745222
+    - time: 2.3333335
+      value: -0.01744587
+      inTangent: -0.030331928
+      outTangent: -0.030331928
+    - time: 2.5333335
+      value: -0.023532042
+      inTangent: -0.02646013
+      outTangent: -0.02646013
+  - boneIndex: 10
+    keyframes:
+    - time: 0
+      value: -0.2627406
+      inTangent: 0.024281142
+      outTangent: 0.024281142
+    - time: 0.40000004
+      value: -0.2614494
+      inTangent: -0.02643003
+      outTangent: -0.02643003
+    - time: 1.3333334
+      value: -0.26255846
+      inTangent: 0.0014095004
+      outTangent: 0.0014095004
+    - time: 1.8333334
+      value: -0.26444793
+      inTangent: -0.0017653399
+      outTangent: -0.0017653399
+    - time: 2.5333335
+      value: -0.26270452
+      inTangent: 0.007405586
+      outTangent: 0.007405586
+  - boneIndex: 11
+    keyframes:
+    - time: 0
+      value: -0.7023514
+      inTangent: 0.002837777
+      outTangent: 0.002837777
+    - time: 1.1
+      value: -0.70166194
+      inTangent: -0.003035364
+      outTangent: -0.003035364
+    - time: 1.7
+      value: -0.70156634
+      inTangent: 0.0049969507
+      outTangent: 0.0049969507
+    - time: 2.266667
+      value: -0.7012621
+      inTangent: -0.004699218
+      outTangent: -0.004699218
+    - time: 2.5333335
+      value: -0.70235276
+      inTangent: -0.0029772548
+      outTangent: -0.0029772548
+  - boneIndex: 12
+    keyframes:
+    - time: 0
+      value: 0.0971836
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.0971836
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 0
+      value: -0.3352522
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: -0.3352522
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 0
+      value: 0.731851
+      inTangent: -0.019208191
+      outTangent: -0.019208191
+    - time: 0.36666667
+      value: 0.72894883
+      inTangent: 0.00025302192
+      outTangent: 0.00025302192
+    - time: 1
+      value: 0.72920376
+      inTangent: 0.010977378
+      outTangent: 0.010977378
+    - time: 1.6666667
+      value: 0.7283958
+      inTangent: -0.0136345755
+      outTangent: -0.0136345755
+    - time: 2.0333335
+      value: 0.72847503
+      inTangent: 0.02630078
+      outTangent: 0.02630078
+    - time: 2.5000002
+      value: 0.7325448
+      inTangent: -0.016978353
+      outTangent: -0.016978353
+    - time: 2.5333335
+      value: 0.7318511
+      inTangent: -0.020810386
+      outTangent: -0.020810386
+  - boneIndex: 15
+    keyframes:
+    - time: 0
+      value: 0.015540265
+      inTangent: -0.021681523
+      outTangent: -0.021681523
+    - time: 0.36666667
+      value: 0.0044334307
+      inTangent: -0.015609404
+      outTangent: -0.015609404
+    - time: 0.8333334
+      value: 0.011848758
+      inTangent: 0.07379396
+      outTangent: 0.07379396
+    - time: 1.2
+      value: 0.031775627
+      inTangent: -0.057110824
+      outTangent: -0.057110824
+    - time: 1.6333334
+      value: 0.0060511003
+      inTangent: -0.042118683
+      outTangent: -0.042118683
+    - time: 2.0333335
+      value: -0.004059292
+      inTangent: 0.039857484
+      outTangent: 0.039857484
+    - time: 2.5333335
+      value: 0.015540151
+      inTangent: 0.003016538
+      outTangent: 0.003016538
+  - boneIndex: 16
+    keyframes:
+    - time: 0
+      value: 0.10203703
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.10203703
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 0
+      value: 0.010120809
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.010120809
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 0
+      value: 0.028857704
+      inTangent: -0.0006258487
+      outTangent: -0.0006258487
+    - time: 0.40000004
+      value: 0.028222468
+      inTangent: -0.0029792064
+      outTangent: -0.0029792064
+    - time: 0.7666667
+      value: 0.028262157
+      inTangent: 0.0002923885
+      outTangent: 0.0002923885
+    - time: 2.4
+      value: 0.028851593
+      inTangent: 0.0005432596
+      outTangent: 0.0005432596
+    - time: 2.5333335
+      value: 0.028856669
+      inTangent: -0.0005127494
+      outTangent: -0.0005127494
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: 0.012239578
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 0.017789535
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 0
+      value: -0.15086232
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: -0.15086232
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 0
+      value: 0.024126604
+      inTangent: -0.000010672956
+      outTangent: -0.000010672956
+    - time: 0.5666667
+      value: 0.024352409
+      inTangent: -0.0019864526
+      outTangent: -0.0019864526
+    - time: 1.0666667
+      value: 0.02422343
+      inTangent: -0.0047966884
+      outTangent: -0.0047966884
+    - time: 1.8333334
+      value: 0.025428386
+      inTangent: -0.0010183736
+      outTangent: -0.0010183736
+    - time: 2.5333335
+      value: 0.024037516
+      inTangent: -0.005364591
+      outTangent: -0.005364591
+  - boneIndex: 23
+    keyframes:
+    - time: 0
+      value: -0.030424615
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: -0.030424615
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: -0.012240466
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: -0.017786453
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 0
+      value: -0.5248517
+      inTangent: 0.041461583
+      outTangent: 0.041461583
+    - time: 0.5666667
+      value: -0.5147026
+      inTangent: 0.001843554
+      outTangent: 0.001843554
+    - time: 1.4000001
+      value: -0.5205087
+      inTangent: 0.03501985
+      outTangent: 0.03501985
+    - time: 2.5333335
+      value: -0.5248517
+      inTangent: -0.0015753523
+      outTangent: -0.0015753523
+  - boneIndex: 27
+    keyframes:
+    - time: 0
+      value: -0.40195727
+      inTangent: 0.011030137
+      outTangent: 0.011030137
+    - time: 0.9333334
+      value: -0.4001997
+      inTangent: -0.014177259
+      outTangent: -0.014177259
+    - time: 2.1666667
+      value: -0.39888993
+      inTangent: -0.003220889
+      outTangent: -0.003220889
+    - time: 2.5333335
+      value: -0.40195662
+      inTangent: -0.019899327
+      outTangent: -0.019899327
+  - boneIndex: 28
+    keyframes:
+    - time: 0
+      value: 0.12045209
+      inTangent: -0.0000603497
+      outTangent: -0.0000603497
+    - time: 0.9666667
+      value: 0.118511595
+      inTangent: 0.008086532
+      outTangent: 0.008086532
+    - time: 2.3333335
+      value: 0.12022981
+      inTangent: 0.006456195
+      outTangent: 0.006456195
+    - time: 2.5333335
+      value: 0.12045204
+      inTangent: -0.0018111634
+      outTangent: -0.0018111634
+  - boneIndex: 29
+    keyframes:
+    - time: 0
+      value: -0.0087914
+      inTangent: 0.0006827339
+      outTangent: 0.0006827339
+    - time: 1.1666667
+      value: -0.00702959
+      inTangent: -0.0009659454
+      outTangent: -0.0009659454
+    - time: 2.0666668
+      value: -0.007511048
+      inTangent: -0.0005460885
+      outTangent: -0.0005460885
+    - time: 2.5333335
+      value: -0.008791437
+      inTangent: -0.0045323507
+      outTangent: -0.0045323507
+  - boneIndex: 30
+    keyframes:
+    - time: 0
+      value: 0.034056373
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.034056373
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: -0.00053793885
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 0
+      value: 0.0061829207
+      inTangent: -0.015727133
+      outTangent: -0.015727133
+    - time: 0.90000004
+      value: 0.010638813
+      inTangent: -0.004576354
+      outTangent: -0.004576354
+    - time: 1.6333334
+      value: 0.008567158
+      inTangent: 0.0078245
+      outTangent: 0.0078245
+    - time: 2.5333335
+      value: 0.006184385
+      inTangent: -0.0039718663
+      outTangent: -0.0039718663
+  - boneIndex: 33
+    keyframes:
+    - time: 0
+      value: 0.061340023
+      inTangent: -0.00241857
+      outTangent: -0.00241857
+    - time: 0.9333334
+      value: 0.061438315
+      inTangent: 0.0007458216
+      outTangent: 0.0007458216
+    - time: 1.6666667
+      value: 0.061606728
+      inTangent: -0.0005147052
+      outTangent: -0.0005147052
+    - time: 2.5333335
+      value: 0.061339315
+      inTangent: 0.0022243357
+      outTangent: 0.0022243357
+  - boneIndex: 34
+    keyframes:
+    - time: 0
+      value: 0.006646748
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.006646748
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.00061404094
+      inTangent: 0
+      outTangent: 0
+  rotYCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 0
+      value: -0.8270109
+      inTangent: -0.024154184
+      outTangent: -0.024154184
+    - time: 0.6333334
+      value: -0.82749116
+      inTangent: 0.0367105
+      outTangent: 0.0367105
+    - time: 1.2666668
+      value: -0.8240491
+      inTangent: -0.04846658
+      outTangent: -0.04846658
+    - time: 1.9000001
+      value: -0.82027817
+      inTangent: 0.06620234
+      outTangent: 0.06620234
+    - time: 2.3666668
+      value: -0.81529
+      inTangent: -0.06894178
+      outTangent: -0.06894178
+    - time: 2.5333335
+      value: -0.8270107
+      inTangent: -0.07020063
+      outTangent: -0.07020063
+  - boneIndex: 1
+    keyframes:
+    - time: 0
+      value: -0.0063684867
+      inTangent: 0.008663926
+      outTangent: 0.008663926
+    - time: 1.2666668
+      value: -0.006592996
+      inTangent: 0.006527025
+      outTangent: 0.006527025
+    - time: 2.5333335
+      value: -0.0062384764
+      inTangent: 0.0016705708
+      outTangent: 0.0016705708
+  - boneIndex: 2
+    keyframes:
+    - time: 0
+      value: -0.3460307
+      inTangent: 0.010077952
+      outTangent: 0.010077952
+    - time: 0.73333335
+      value: -0.3859488
+      inTangent: -0.05390034
+      outTangent: -0.05390034
+    - time: 1.3000001
+      value: -0.35599226
+      inTangent: 0.07429637
+      outTangent: 0.07429637
+    - time: 1.6333334
+      value: -0.354705
+      inTangent: -0.14792219
+      outTangent: -0.14792219
+    - time: 2.1000001
+      value: -0.41685656
+      inTangent: 0.011995297
+      outTangent: 0.011995297
+    - time: 2.4666667
+      value: -0.35770512
+      inTangent: 0.22378822
+      outTangent: 0.22378822
+    - time: 2.5333335
+      value: -0.34603077
+      inTangent: 0.13607217
+      outTangent: 0.13607217
+  - boneIndex: 3
+    keyframes:
+    - time: 0
+      value: 0.023038473
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.023038473
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 0
+      value: 0.009668826
+      inTangent: 0.007642004
+      outTangent: 0.007642004
+    - time: 1.2666668
+      value: 0.009425276
+      inTangent: 0.0057204627
+      outTangent: 0.0057204627
+    - time: 2.5333335
+      value: 0.009802454
+      inTangent: 0.0013992762
+      outTangent: 0.0013992762
+  - boneIndex: 5
+    keyframes:
+    - time: 0
+      value: 0.024478588
+      inTangent: 0.005613863
+      outTangent: 0.005613863
+    - time: 1.2666668
+      value: 0.024242599
+      inTangent: 0.004208998
+      outTangent: 0.004208998
+    - time: 2.5333335
+      value: 0.024615286
+      inTangent: 0.00097509567
+      outTangent: 0.00097509567
+  - boneIndex: 6
+    keyframes:
+    - time: 0
+      value: 0.012939292
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.012939292
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: -0.11700145
+      inTangent: 0.0065023447
+      outTangent: 0.0065023447
+    - time: 1.1333334
+      value: -0.11745629
+      inTangent: -0.010246801
+      outTangent: -0.010246801
+    - time: 2.0333335
+      value: -0.112428255
+      inTangent: -0.019386165
+      outTangent: -0.019386165
+    - time: 2.5333335
+      value: -0.117071696
+      inTangent: 0.019905362
+      outTangent: 0.019905362
+  - boneIndex: 8
+    keyframes:
+    - time: 0
+      value: 0.28217694
+      inTangent: -0.05166292
+      outTangent: -0.05166292
+    - time: 0.6666667
+      value: 0.27976263
+      inTangent: 0.04172087
+      outTangent: 0.04172087
+    - time: 1.2666668
+      value: 0.28674763
+      inTangent: -0.036833398
+      outTangent: -0.036833398
+    - time: 1.7666668
+      value: 0.29064396
+      inTangent: 0.04951765
+      outTangent: 0.04951765
+    - time: 2.3666668
+      value: 0.2903814
+      inTangent: -0.051119823
+      outTangent: -0.051119823
+    - time: 2.5333335
+      value: 0.28217697
+      inTangent: -0.045228347
+      outTangent: -0.045228347
+  - boneIndex: 9
+    keyframes:
+    - time: 0
+      value: 0.732514
+      inTangent: 0.025414823
+      outTangent: 0.025414823
+    - time: 0.73333335
+      value: 0.73593694
+      inTangent: -0.035727024
+      outTangent: -0.035727024
+    - time: 1.3666668
+      value: 0.73217785
+      inTangent: 0.018044991
+      outTangent: 0.018044991
+    - time: 2.3333335
+      value: 0.72686654
+      inTangent: 0.028797116
+      outTangent: 0.028797116
+    - time: 2.5333335
+      value: 0.73251
+      inTangent: 0.02432587
+      outTangent: 0.02432587
+  - boneIndex: 10
+    keyframes:
+    - time: 0
+      value: -0.19813636
+      inTangent: -0.014027058
+      outTangent: -0.014027058
+    - time: 0.40000004
+      value: -0.20128345
+      inTangent: 0.012485007
+      outTangent: 0.012485007
+    - time: 1.3333334
+      value: -0.19859041
+      inTangent: 0.005252879
+      outTangent: 0.005252879
+    - time: 1.8333334
+      value: -0.20034042
+      inTangent: -0.006970162
+      outTangent: -0.006970162
+    - time: 2.5333335
+      value: -0.19809039
+      inTangent: 0.0057497676
+      outTangent: 0.0057497676
+  - boneIndex: 11
+    keyframes:
+    - time: 0
+      value: 0.048372
+      inTangent: 0.04744872
+      outTangent: 0.04744872
+    - time: 1.1
+      value: 0.057239894
+      inTangent: -0.040768035
+      outTangent: -0.040768035
+    - time: 1.7
+      value: 0.059275154
+      inTangent: 0.067634135
+      outTangent: 0.067634135
+    - time: 2.266667
+      value: 0.06310859
+      inTangent: -0.055104002
+      outTangent: -0.055104002
+    - time: 2.5333335
+      value: 0.048405714
+      inTangent: -0.045417108
+      outTangent: -0.045417108
+  - boneIndex: 12
+    keyframes:
+    - time: 0
+      value: 0.36089316
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.36089316
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 0
+      value: 0.024369871
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.024369871
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 0
+      value: -0.26528648
+      inTangent: -0.055181082
+      outTangent: -0.055181082
+    - time: 0.36666667
+      value: -0.28576186
+      inTangent: -0.054060794
+      outTangent: -0.054060794
+    - time: 1
+      value: -0.28485245
+      inTangent: 0.09189196
+      outTangent: 0.09189196
+    - time: 1.6666667
+      value: -0.28590977
+      inTangent: -0.088551424
+      outTangent: -0.088551424
+    - time: 2.0333335
+      value: -0.2990125
+      inTangent: 0.09361156
+      outTangent: 0.09361156
+    - time: 2.5000002
+      value: -0.26450574
+      inTangent: -0.010094962
+      outTangent: -0.010094962
+    - time: 2.5333335
+      value: -0.26528656
+      inTangent: -0.023424648
+      outTangent: -0.023424648
+  - boneIndex: 15
+    keyframes:
+    - time: 0
+      value: -0.12147865
+      inTangent: 0.028776301
+      outTangent: 0.028776301
+    - time: 0.36666667
+      value: -0.10441944
+      inTangent: 0.038703144
+      outTangent: 0.038703144
+    - time: 0.8333334
+      value: -0.10274646
+      inTangent: -0.06562984
+      outTangent: -0.06562984
+    - time: 1.2
+      value: -0.130585
+      inTangent: 0.024983237
+      outTangent: 0.024983237
+    - time: 1.6333334
+      value: -0.10854959
+      inTangent: 0.07675048
+      outTangent: 0.07675048
+    - time: 2.0333335
+      value: -0.08917235
+      inTangent: -0.058499195
+      outTangent: -0.058499195
+    - time: 2.5333335
+      value: -0.121478625
+      inTangent: -0.012758386
+      outTangent: -0.012758386
+  - boneIndex: 16
+    keyframes:
+    - time: 0
+      value: -0.14564174
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: -0.14564174
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 0
+      value: 0.3308558
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.3308558
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 0
+      value: 0.28012758
+      inTangent: -0.0048610563
+      outTangent: -0.0048610563
+    - time: 0.40000004
+      value: 0.2718356
+      inTangent: -0.039363634
+      outTangent: -0.039363634
+    - time: 0.7666667
+      value: 0.27231455
+      inTangent: 0.0034967037
+      outTangent: 0.0034967037
+    - time: 2.4
+      value: 0.2801171
+      inTangent: 0.0014805808
+      outTangent: 0.0014805808
+    - time: 2.5333335
+      value: 0.2801312
+      inTangent: -0.0013929618
+      outTangent: -0.0013929618
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: -0.0048797023
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: -0.017345412
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 0
+      value: 0.012740329
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.012740329
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 0
+      value: 0.18815047
+      inTangent: -0.00063791865
+      outTangent: -0.00063791865
+    - time: 0.5666667
+      value: 0.18754187
+      inTangent: 0.007533195
+      outTangent: 0.007533195
+    - time: 1.0666667
+      value: 0.18673223
+      inTangent: 0.015688479
+      outTangent: 0.015688479
+    - time: 1.8333334
+      value: 0.18378258
+      inTangent: 0.0016607277
+      outTangent: 0.0016607277
+    - time: 2.5333335
+      value: 0.18809636
+      inTangent: 0.0098446105
+      outTangent: 0.0098446105
+  - boneIndex: 23
+    keyframes:
+    - time: 0
+      value: 0.11629439
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.11629439
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 0.004878981
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 0.017347906
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 0
+      value: 0.67261463
+      inTangent: 0.02392709
+      outTangent: 0.02392709
+    - time: 0.5666667
+      value: 0.68077356
+      inTangent: 0.0017836583
+      outTangent: 0.0017836583
+    - time: 1.4000001
+      value: 0.6768513
+      inTangent: 0.020443816
+      outTangent: 0.020443816
+    - time: 2.5333335
+      value: 0.6726147
+      inTangent: -0.01447679
+      outTangent: -0.01447679
+  - boneIndex: 27
+    keyframes:
+    - time: 0
+      value: 0.82533026
+      inTangent: 0.0070846076
+      outTangent: 0.0070846076
+    - time: 0.9333334
+      value: 0.82811546
+      inTangent: -0.012552734
+      outTangent: -0.012552734
+    - time: 2.1666667
+      value: 0.82864594
+      inTangent: -0.008733281
+      outTangent: -0.008733281
+    - time: 2.5333335
+      value: 0.82533044
+      inTangent: -0.0045722765
+      outTangent: -0.0045722765
+  - boneIndex: 28
+    keyframes:
+    - time: 0
+      value: 0.18338227
+      inTangent: 0.0031667945
+      outTangent: 0.0031667945
+    - time: 0.9666667
+      value: 0.1809838
+      inTangent: 0.008961939
+      outTangent: 0.008961939
+    - time: 2.3333335
+      value: 0.18193051
+      inTangent: 0.007663302
+      outTangent: 0.007663302
+    - time: 2.5333335
+      value: 0.18338212
+      inTangent: 0.0098960195
+      outTangent: 0.0098960195
+  - boneIndex: 29
+    keyframes:
+    - time: 0
+      value: 0.10399901
+      inTangent: -0.004721805
+      outTangent: -0.004721805
+    - time: 1.1666667
+      value: 0.10124838
+      inTangent: -0.0008112572
+      outTangent: -0.0008112572
+    - time: 2.0666668
+      value: 0.10115158
+      inTangent: 0.0026631006
+      outTangent: 0.0026631006
+    - time: 2.5333335
+      value: 0.10399912
+      inTangent: 0.0048188167
+      outTangent: 0.0048188167
+  - boneIndex: 30
+    keyframes:
+    - time: 0
+      value: 0.009521178
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.009521178
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: -0.0016754845
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 0
+      value: -0.001710683
+      inTangent: -0.0026233748
+      outTangent: -0.0026233748
+    - time: 0.90000004
+      value: -0.0015945175
+      inTangent: 0.010014954
+      outTangent: 0.010014954
+    - time: 1.6333334
+      value: -0.0011251683
+      inTangent: -0.010773256
+      outTangent: -0.010773256
+    - time: 2.5333335
+      value: -0.0017112194
+      inTangent: -0.0001233503
+      outTangent: -0.0001233503
+  - boneIndex: 33
+    keyframes:
+    - time: 0
+      value: -0.32646137
+      inTangent: 0.015257298
+      outTangent: 0.015257298
+    - time: 0.9333334
+      value: -0.32357082
+      inTangent: -0.01960069
+      outTangent: -0.01960069
+    - time: 1.6666667
+      value: -0.3226185
+      inTangent: 0.012671662
+      outTangent: 0.012671662
+    - time: 2.5333335
+      value: -0.32646152
+      inTangent: -0.00590623
+      outTangent: -0.00590623
+  - boneIndex: 34
+    keyframes:
+    - time: 0
+      value: 0.0030589083
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.0030589083
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.0014642945
+      inTangent: 0
+      outTangent: 0
+  rotZCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 0
+      value: 0.19003193
+      inTangent: -0.013000219
+      outTangent: -0.013000219
+    - time: 0.6333334
+      value: 0.18928625
+      inTangent: 0.01775533
+      outTangent: 0.01775533
+    - time: 1.2666668
+      value: 0.19073045
+      inTangent: -0.02455471
+      outTangent: -0.02455471
+    - time: 1.9000001
+      value: 0.191907
+      inTangent: 0.031431496
+      outTangent: 0.031431496
+    - time: 2.3666668
+      value: 0.19499327
+      inTangent: -0.029695434
+      outTangent: -0.029695434
+    - time: 2.5333335
+      value: 0.19003084
+      inTangent: -0.029287962
+      outTangent: -0.029287962
+  - boneIndex: 1
+    keyframes:
+    - time: 0
+      value: 0.040821057
+      inTangent: -0.019833928
+      outTangent: -0.019833928
+    - time: 1.2666668
+      value: 0.039393064
+      inTangent: -0.018088354
+      outTangent: -0.018088354
+    - time: 2.5333335
+      value: 0.04087434
+      inTangent: -0.008530327
+      outTangent: -0.008530327
+  - boneIndex: 2
+    keyframes:
+    - time: 0
+      value: -0.2209111
+      inTangent: 0.021425484
+      outTangent: 0.021425484
+    - time: 0.73333335
+      value: -0.24026717
+      inTangent: -0.046303872
+      outTangent: -0.046303872
+    - time: 1.3000001
+      value: -0.22518663
+      inTangent: 0.06857208
+      outTangent: 0.06857208
+    - time: 1.6333334
+      value: -0.21720144
+      inTangent: -0.07512495
+      outTangent: -0.07512495
+    - time: 2.1000001
+      value: -0.24741548
+      inTangent: 0.0075882
+      outTangent: 0.0075882
+    - time: 2.4666667
+      value: -0.22674723
+      inTangent: 0.091965556
+      outTangent: 0.091965556
+    - time: 2.5333335
+      value: -0.2209111
+      inTangent: 0.08246549
+      outTangent: 0.08246549
+  - boneIndex: 3
+    keyframes:
+    - time: 0
+      value: 0.18648657
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.18648657
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 0
+      value: -0.15695524
+      inTangent: -0.019940434
+      outTangent: -0.019940434
+    - time: 1.2666668
+      value: -0.15836681
+      inTangent: -0.018160326
+      outTangent: -0.018160326
+    - time: 2.5333335
+      value: -0.15690865
+      inTangent: -0.008527198
+      outTangent: -0.008527198
+  - boneIndex: 5
+    keyframes:
+    - time: 0
+      value: -0.06795666
+      inTangent: -0.020712687
+      outTangent: -0.020712687
+    - time: 1.2666668
+      value: -0.06935403
+      inTangent: -0.018745158
+      outTangent: -0.018745158
+    - time: 2.5333335
+      value: -0.06792068
+      inTangent: -0.00869953
+      outTangent: -0.00869953
+  - boneIndex: 6
+    keyframes:
+    - time: 0
+      value: 0.0018610179
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.0018610179
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: -0.7810842
+      inTangent: 0.009469985
+      outTangent: 0.009469985
+    - time: 1.1333334
+      value: -0.78000426
+      inTangent: 0.0073572923
+      outTangent: 0.0073572923
+    - time: 2.0333335
+      value: -0.78174376
+      inTangent: -0.0011229439
+      outTangent: -0.0011229439
+    - time: 2.5333335
+      value: -0.78106195
+      inTangent: -0.008055575
+      outTangent: -0.008055575
+  - boneIndex: 8
+    keyframes:
+    - time: 0
+      value: -0.19859795
+      inTangent: 0.022146551
+      outTangent: 0.022146551
+    - time: 0.6666667
+      value: -0.1978001
+      inTangent: -0.066333264
+      outTangent: -0.066333264
+    - time: 1.2666668
+      value: -0.20151114
+      inTangent: 0.04774463
+      outTangent: 0.04774463
+    - time: 1.7666668
+      value: -0.21011603
+      inTangent: -0.083588
+      outTangent: -0.083588
+    - time: 2.3666668
+      value: -0.21140446
+      inTangent: 0.07839255
+      outTangent: 0.07839255
+    - time: 2.5333335
+      value: -0.19859792
+      inTangent: 0.06711251
+      outTangent: 0.06711251
+  - boneIndex: 9
+    keyframes:
+    - time: 0
+      value: -0.023245253
+      inTangent: -0.014544277
+      outTangent: -0.014544277
+    - time: 0.73333335
+      value: -0.025759542
+      inTangent: 0.020042527
+      outTangent: 0.020042527
+    - time: 1.3666668
+      value: -0.024068305
+      inTangent: -0.010765119
+      outTangent: -0.010765119
+    - time: 2.3333335
+      value: -0.020448286
+      inTangent: -0.0142543055
+      outTangent: -0.0142543055
+    - time: 2.5333335
+      value: -0.023168106
+      inTangent: -0.011422757
+      outTangent: -0.011422757
+  - boneIndex: 10
+    keyframes:
+    - time: 0
+      value: -0.6947491
+      inTangent: -0.0057077403
+      outTangent: -0.0057077403
+    - time: 0.40000004
+      value: -0.6826696
+      inTangent: 0.085695654
+      outTangent: 0.085695654
+    - time: 1.3333334
+      value: -0.6941425
+      inTangent: -0.033245962
+      outTangent: -0.033245962
+    - time: 1.8333334
+      value: -0.6671329
+      inTangent: 0.08029276
+      outTangent: 0.08029276
+    - time: 2.5333335
+      value: -0.694747
+      inTangent: -0.073433585
+      outTangent: -0.073433585
+  - boneIndex: 11
+    keyframes:
+    - time: 0
+      value: -0.010442972
+      inTangent: -0.06008662
+      outTangent: -0.06008662
+    - time: 1.1
+      value: -0.02367332
+      inTangent: 0.057441413
+      outTangent: 0.057441413
+    - time: 1.7
+      value: -0.026141565
+      inTangent: -0.09978549
+      outTangent: -0.09978549
+    - time: 2.266667
+      value: -0.032655343
+      inTangent: 0.08227675
+      outTangent: 0.08227675
+    - time: 2.5333335
+      value: -0.010423345
+      inTangent: 0.071224146
+      outTangent: 0.071224146
+  - boneIndex: 12
+    keyframes:
+    - time: 0
+      value: 0.19011468
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.19011468
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 0
+      value: 0.46803713
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.46803713
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 0
+      value: -0.07745742
+      inTangent: -0.09892679
+      outTangent: -0.09892679
+    - time: 0.36666667
+      value: -0.074833445
+      inTangent: 0.09835981
+      outTangent: 0.09835981
+    - time: 1
+      value: -0.0490562
+      inTangent: -0.012754169
+      outTangent: -0.012754169
+    - time: 1.6666667
+      value: -0.07600315
+      inTangent: 0.019613784
+      outTangent: 0.019613784
+    - time: 2.0333335
+      value: -0.04081918
+      inTangent: 0.14401565
+      outTangent: 0.14401565
+    - time: 2.5000002
+      value: -0.07131149
+      inTangent: -0.17348777
+      outTangent: -0.17348777
+    - time: 2.5333335
+      value: -0.07745736
+      inTangent: -0.18437634
+      outTangent: -0.18437634
+  - boneIndex: 15
+    keyframes:
+    - time: 0
+      value: -0.59354466
+      inTangent: 0.022963284
+      outTangent: 0.022963284
+    - time: 0.36666667
+      value: -0.5678572
+      inTangent: 0.096710585
+      outTangent: 0.096710585
+    - time: 0.8333334
+      value: -0.5344274
+      inTangent: -0.007825767
+      outTangent: -0.007825767
+    - time: 1.2
+      value: -0.56900525
+      inTangent: -0.09842375
+      outTangent: -0.09842375
+    - time: 1.6333334
+      value: -0.57947147
+      inTangent: 0.14301553
+      outTangent: 0.14301553
+    - time: 2.0333335
+      value: -0.53502244
+      inTangent: -0.0854121
+      outTangent: -0.0854121
+    - time: 2.5333335
+      value: -0.5935446
+      inTangent: -0.06128496
+      outTangent: -0.06128496
+  - boneIndex: 16
+    keyframes:
+    - time: 0
+      value: 0.07621524
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.07621524
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 0
+      value: 0.54772335
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.54772335
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 0
+      value: 0.48001954
+      inTangent: -0.012000202
+      outTangent: -0.012000202
+    - time: 0.40000004
+      value: 0.4626023
+      inTangent: -0.08228074
+      outTangent: -0.08228074
+    - time: 0.7666667
+      value: 0.46360663
+      inTangent: 0.007436418
+      outTangent: 0.007436418
+    - time: 2.4
+      value: 0.47996056
+      inTangent: 0.0061069485
+      outTangent: 0.0061069485
+    - time: 2.5333335
+      value: 0.4800187
+      inTangent: -0.0057461914
+      outTangent: -0.0057461914
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: 0.034114677
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 0.059156705
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 0
+      value: -0.09700562
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: -0.09700562
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 0
+      value: 0.48092815
+      inTangent: -0.0012642144
+      outTangent: -0.0012642144
+    - time: 0.5666667
+      value: 0.4804908
+      inTangent: 0.013539772
+      outTangent: 0.013539772
+    - time: 1.0666667
+      value: 0.47866803
+      inTangent: 0.016797796
+      outTangent: 0.016797796
+    - time: 1.8333334
+      value: 0.47343218
+      inTangent: -0.0007023036
+      outTangent: -0.0007023036
+    - time: 2.5333335
+      value: 0.48095083
+      inTangent: 0.016750412
+      outTangent: 0.016750412
+  - boneIndex: 23
+    keyframes:
+    - time: 0
+      value: 0.537177
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.537177
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 0.034112923
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 0.059156153
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 0
+      value: 0.33620983
+      inTangent: 0.009400248
+      outTangent: 0.009400248
+    - time: 0.5666667
+      value: 0.33932275
+      inTangent: 0.002617836
+      outTangent: 0.002617836
+    - time: 1.4000001
+      value: 0.3382577
+      inTangent: 0.007219172
+      outTangent: 0.007219172
+    - time: 2.5333335
+      value: 0.3362099
+      inTangent: -0.0027743008
+      outTangent: -0.0027743008
+  - boneIndex: 27
+    keyframes:
+    - time: 0
+      value: -0.17859598
+      inTangent: -0.0002208352
+      outTangent: -0.0002208352
+    - time: 0.9333334
+      value: -0.17953025
+      inTangent: 0.009273065
+      outTangent: 0.009273065
+    - time: 2.1666667
+      value: -0.18125035
+      inTangent: 0.010187263
+      outTangent: 0.010187263
+    - time: 2.5333335
+      value: -0.17859578
+      inTangent: 0.011200021
+      outTangent: 0.011200021
+  - boneIndex: 28
+    keyframes:
+    - time: 0
+      value: 0.6650334
+      inTangent: -0.008963942
+      outTangent: -0.008963942
+    - time: 0.9666667
+      value: 0.6602445
+      inTangent: 0.009845505
+      outTangent: 0.009845505
+    - time: 2.3333335
+      value: 0.6614109
+      inTangent: 0.01579018
+      outTangent: 0.01579018
+    - time: 2.5333335
+      value: 0.66503304
+      inTangent: 0.021026751
+      outTangent: 0.021026751
+  - boneIndex: 29
+    keyframes:
+    - time: 0
+      value: -0.5576112
+      inTangent: -0.010825395
+      outTangent: -0.010825395
+    - time: 1.1666667
+      value: -0.55437696
+      inTangent: -0.010868322
+      outTangent: -0.010868322
+    - time: 2.0666668
+      value: -0.55690753
+      inTangent: 0.013124062
+      outTangent: 0.013124062
+    - time: 2.5333335
+      value: -0.5576107
+      inTangent: -0.021042844
+      outTangent: -0.021042844
+  - boneIndex: 30
+    keyframes:
+    - time: 0
+      value: -0.37249237
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: -0.37249237
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: 0.9954929
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 0
+      value: 0.6849607
+      inTangent: -0.024615524
+      outTangent: -0.024615524
+    - time: 0.90000004
+      value: 0.6717766
+      inTangent: 0.04555017
+      outTangent: 0.04555017
+    - time: 1.6333334
+      value: 0.66357106
+      inTangent: -0.045203313
+      outTangent: -0.045203313
+    - time: 2.5333335
+      value: 0.6849602
+      inTangent: 0.0066572493
+      outTangent: 0.0066572493
+  - boneIndex: 33
+    keyframes:
+    - time: 0
+      value: -0.6165308
+      inTangent: 0.012883543
+      outTangent: 0.012883543
+    - time: 0.9333334
+      value: -0.60775745
+      inTangent: -0.016992688
+      outTangent: -0.016992688
+    - time: 1.6666667
+      value: -0.5990226
+      inTangent: 0.02392175
+      outTangent: 0.02392175
+    - time: 2.5333335
+      value: -0.6165301
+      inTangent: 0.0017488019
+      outTangent: 0.0017488019
+  - boneIndex: 34
+    keyframes:
+    - time: 0
+      value: -0.3890463
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: -0.3890463
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.98400944
+      inTangent: 0
+      outTangent: 0
+  rotWCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 0
+      value: 0.52768594
+      inTangent: -0.03172338
+      outTangent: -0.03172338
+    - time: 0.6333334
+      value: 0.52726114
+      inTangent: 0.04909337
+      outTangent: 0.04909337
+    - time: 1.2666668
+      value: 0.53191704
+      inTangent: -0.063213356
+      outTangent: -0.063213356
+    - time: 1.9000001
+      value: 0.5370774
+      inTangent: 0.08552679
+      outTangent: 0.08552679
+    - time: 2.3666668
+      value: 0.5431396
+      inTangent: -0.08809366
+      outTangent: -0.08809366
+    - time: 2.5333335
+      value: 0.52768654
+      inTangent: -0.09490916
+      outTangent: -0.09490916
+  - boneIndex: 1
+    keyframes:
+    - time: 0
+      value: 0.9991216
+      inTangent: 0.0008529424
+      outTangent: 0.0008529424
+    - time: 1.2666668
+      value: 0.9991817
+      inTangent: 0.0007635348
+      outTangent: 0.0007635348
+    - time: 2.5333335
+      value: 0.9991204
+      inTangent: 0.00037372147
+      outTangent: 0.00037372147
+  - boneIndex: 2
+    keyframes:
+    - time: 0
+      value: 0.91120094
+      inTangent: 0.0071078534
+      outTangent: 0.0071078534
+    - time: 0.73333335
+      value: 0.88990366
+      inTangent: -0.033865575
+      outTangent: -0.033865575
+    - time: 1.3000001
+      value: 0.9062807
+      inTangent: 0.043552857
+      outTangent: 0.043552857
+    - time: 1.6333334
+      value: 0.90787804
+      inTangent: -0.076401904
+      outTangent: -0.076401904
+    - time: 2.1000001
+      value: 0.87360966
+      inTangent: 0.008820006
+      outTangent: 0.008820006
+    - time: 2.4666667
+      value: 0.90526676
+      inTangent: 0.11253359
+      outTangent: 0.11253359
+    - time: 2.5333335
+      value: 0.91120094
+      inTangent: 0.07076926
+      outTangent: 0.07076926
+  - boneIndex: 3
+    keyframes:
+    - time: 0
+      value: 0.9744359
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.9744359
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 0
+      value: 0.98724043
+      inTangent: -0.0032079217
+      outTangent: -0.0032079217
+    - time: 1.2666668
+      value: 0.9870015
+      inTangent: -0.0029692026
+      outTangent: -0.0029692026
+    - time: 2.5333335
+      value: 0.98724616
+      inTangent: -0.0014072671
+      outTangent: -0.0014072671
+  - boneIndex: 5
+    keyframes:
+    - time: 0
+      value: 0.9971386
+      inTangent: -0.0014984607
+      outTangent: -0.0014984607
+    - time: 1.2666668
+      value: 0.9970326
+      inTangent: -0.0013938533
+      outTangent: -0.0013938533
+    - time: 2.5333335
+      value: 0.997138
+      inTangent: -0.0006473071
+      outTangent: -0.0006473071
+  - boneIndex: 6
+    keyframes:
+    - time: 0
+      value: 0.99991405
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.99991405
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: 0.58470494
+      inTangent: 0.01972854
+      outTangent: 0.01972854
+    - time: 1.1333334
+      value: 0.5856486
+      inTangent: 0.007681846
+      outTangent: 0.007681846
+    - time: 2.0333335
+      value: 0.58435494
+      inTangent: -0.00884321
+      outTangent: -0.00884321
+    - time: 2.5333335
+      value: 0.58469075
+      inTangent: -0.004579429
+      outTangent: -0.004579429
+  - boneIndex: 8
+    keyframes:
+    - time: 0
+      value: 0.9353351
+      inTangent: 0.021243094
+      outTangent: 0.021243094
+    - time: 0.6666667
+      value: 0.9355736
+      inTangent: -0.025887787
+      outTangent: -0.025887787
+    - time: 1.2666668
+      value: 0.9332744
+      inTangent: 0.022419672
+      outTangent: 0.022419672
+    - time: 1.7666668
+      value: 0.9298067
+      inTangent: -0.035849545
+      outTangent: -0.035849545
+    - time: 2.3666668
+      value: 0.92983294
+      inTangent: 0.034765933
+      outTangent: 0.034765933
+    - time: 2.5333335
+      value: 0.9353351
+      inTangent: 0.029044775
+      outTangent: 0.029044775
+  - boneIndex: 9
+    keyframes:
+    - time: 0
+      value: 0.67994934
+      inTangent: -0.029057262
+      outTangent: -0.029057262
+    - time: 0.73333335
+      value: 0.67596304
+      inTangent: 0.041421358
+      outTangent: 0.041421358
+    - time: 1.3666668
+      value: 0.68023837
+      inTangent: -0.020627063
+      outTangent: -0.020627063
+    - time: 2.3333335
+      value: 0.68625253
+      inTangent: -0.031700164
+      outTangent: -0.031700164
+    - time: 2.5333335
+      value: 0.6799549
+      inTangent: -0.027456906
+      outTangent: -0.027456906
+  - boneIndex: 10
+    keyframes:
+    - time: 0
+      value: 0.6395569
+      inTangent: -0.00059187406
+      outTangent: -0.00059187406
+    - time: 0.40000004
+      value: 0.6519904
+      inTangent: 0.08302954
+      outTangent: 0.08302954
+    - time: 1.3333334
+      value: 0.64014924
+      inTangent: -0.03382889
+      outTangent: -0.03382889
+    - time: 1.8333334
+      value: 0.6669819
+      inTangent: 0.077561386
+      outTangent: 0.077561386
+    - time: 2.5333335
+      value: 0.6395883
+      inTangent: -0.07465489
+      outTangent: -0.07465489
+  - boneIndex: 11
+    keyframes:
+    - time: 0
+      value: 0.71010816
+      inTangent: -0.0014466046
+      outTangent: -0.0014466046
+    - time: 1.1
+      value: 0.70981246
+      inTangent: 0.0022011977
+      outTangent: 0.0022011977
+    - time: 1.7
+      value: 0.70965326
+      inTangent: -0.0043880898
+      outTangent: -0.0043880898
+    - time: 2.266667
+      value: 0.7093535
+      inTangent: 0.0040304554
+      outTangent: 0.0040304554
+    - time: 2.5333335
+      value: 0.7101049
+      inTangent: 0.0013661397
+      outTangent: 0.0013661397
+  - boneIndex: 12
+    keyframes:
+    - time: 0
+      value: 0.907837
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.907837
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 0
+      value: 0.8172841
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.8172841
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 0
+      value: 0.62291056
+      inTangent: -0.013591646
+      outTangent: -0.013591646
+    - time: 0.36666667
+      value: 0.6175546
+      inTangent: -0.013401205
+      outTangent: -0.013401205
+    - time: 1
+      value: 0.62025356
+      inTangent: 0.028288342
+      outTangent: 0.028288342
+    - time: 1.6666667
+      value: 0.6179958
+      inTangent: -0.022492133
+      outTangent: -0.022492133
+    - time: 2.0333335
+      value: 0.61502
+      inTangent: 0.023961905
+      outTangent: 0.023961905
+    - time: 2.5000002
+      value: 0.6231609
+      inTangent: -0.0042924285
+      outTangent: -0.0042924285
+    - time: 2.5333335
+      value: 0.6229104
+      inTangent: -0.0075155566
+      outTangent: -0.0075155566
+  - boneIndex: 15
+    keyframes:
+    - time: 0
+      value: 0.79542834
+      inTangent: 0.021902917
+      outTangent: 0.021902917
+    - time: 0.36666667
+      value: 0.816465
+      inTangent: 0.07229534
+      outTangent: 0.07229534
+    - time: 0.8333334
+      value: 0.8388624
+      inTangent: -0.014213901
+      outTangent: -0.014213901
+    - time: 1.2
+      value: 0.81127733
+      inTangent: -0.06276643
+      outTangent: -0.06276643
+    - time: 1.6333334
+      value: 0.8077086
+      inTangent: 0.11314641
+      outTangent: 0.11314641
+    - time: 2.0333335
+      value: 0.8401088
+      inTangent: -0.06052929
+      outTangent: -0.06052929
+    - time: 2.5333335
+      value: 0.79542834
+      inTangent: -0.047609255
+      outTangent: -0.047609255
+  - boneIndex: 16
+    keyframes:
+    - time: 0
+      value: 0.9811056
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.9811056
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 0
+      value: 0.76839525
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.76839525
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 0
+      value: 0.8308291
+      inTangent: 0.008590221
+      outTangent: 0.008590221
+    - time: 0.40000004
+      value: 0.84339076
+      inTangent: 0.05805102
+      outTangent: 0.05805102
+    - time: 0.7666667
+      value: 0.8426832
+      inTangent: -0.005230303
+      outTangent: -0.005230303
+    - time: 2.4
+      value: 0.83086693
+      inTangent: -0.004047457
+      outTangent: -0.004047457
+    - time: 2.5333335
+      value: 0.8308284
+      inTangent: 0.0038087405
+      outTangent: 0.0038087405
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: 0.99933106
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 0.99793947
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 0
+      value: 0.9837013
+      inTangent: 0
+      outTangent: 0
+    - time: 0.033333335
+      value: 0.9837013
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 0
+      value: 0.8559938
+      inTangent: 0.0008529424
+      outTangent: 0.0008529424
+    - time: 0.5666667
+      value: 0.8563665
+      inTangent: -0.009167777
+      outTangent: -0.009167777
+    - time: 1.0666667
+      value: 0.857567
+      inTangent: -0.012640369
+      outTangent: -0.012640369
+    - time: 1.8333334
+      value: 0.8610687
+      inTangent: 0.00006259279
+      outTangent: 0.00006259279
+    - time: 2.5333335
+      value: 0.8559955
+      inTangent: -0.011413705
+      outTangent: -0.011413705
+  - boneIndex: 23
+    keyframes:
+    - time: 0
+      value: 0.8348597
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.8348597
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 0.9993311
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 0.9979395
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 0
+      value: 0.39885238
+      inTangent: 0.0061860676
+      outTangent: 0.0061860676
+    - time: 0.5666667
+      value: 0.39558664
+      inTangent: -0.0029119896
+      outTangent: -0.0029119896
+    - time: 1.4000001
+      value: 0.3956321
+      inTangent: 0.0049522566
+      outTangent: 0.0049522566
+    - time: 2.5333335
+      value: 0.3988524
+      inTangent: 0.024720157
+      outTangent: 0.024720157
+  - boneIndex: 27
+    keyframes:
+    - time: 0
+      value: -0.35406744
+      inTangent: 0.0041100383
+      outTangent: 0.0041100383
+    - time: 0.9333334
+      value: -0.34904712
+      inTangent: -0.018323954
+      outTangent: -0.018323954
+    - time: 2.1666667
+      value: -0.34839785
+      inTangent: -0.022388868
+      outTangent: -0.022388868
+    - time: 2.5333335
+      value: -0.35406795
+      inTangent: 0.006259388
+      outTangent: 0.006259388
+  - boneIndex: 28
+    keyframes:
+    - time: 0
+      value: 0.7138577
+      inTangent: 0.0075459476
+      outTangent: 0.0075459476
+    - time: 0.9666667
+      value: 0.71921974
+      inTangent: -0.012626958
+      outTangent: -0.012626958
+    - time: 2.3333335
+      value: 0.7176222
+      inTangent: -0.017576532
+      outTangent: -0.017576532
+    - time: 2.5333335
+      value: 0.71385807
+      inTangent: -0.021802804
+      outTangent: -0.021802804
+  - boneIndex: 29
+    keyframes:
+    - time: 0
+      value: 0.8235148
+      inTangent: -0.006730556
+      outTangent: -0.006730556
+    - time: 1.1666667
+      value: 0.8260542
+      inTangent: -0.0072026323
+      outTangent: -0.0072026323
+    - time: 2.0666668
+      value: 0.82435787
+      inTangent: 0.008535692
+      outTangent: 0.008535692
+    - time: 2.5333335
+      value: 0.8235151
+      inTangent: -0.014891638
+      outTangent: -0.014891638
+  - boneIndex: 30
+    keyframes:
+    - time: 0
+      value: 0.9273613
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.9273613
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: 0.09481994
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 0
+      value: 0.72855175
+      inTangent: 0.023238657
+      outTangent: 0.023238657
+    - time: 0.90000004
+      value: 0.7406757
+      inTangent: -0.04122913
+      outTangent: -0.04122913
+    - time: 1.6333334
+      value: 0.74806345
+      inTangent: 0.03998641
+      outTangent: 0.03998641
+    - time: 2.5333335
+      value: 0.7285523
+      inTangent: -0.006222731
+      outTangent: -0.006222731
+  - boneIndex: 33
+    keyframes:
+    - time: 0
+      value: 0.71382785
+      inTangent: 0.01829624
+      outTangent: 0.01829624
+    - time: 0.9333334
+      value: 0.7226052
+      inTangent: -0.023132265
+      outTangent: -0.023132265
+    - time: 1.6666667
+      value: 0.7302697
+      inTangent: 0.025269115
+      outTangent: 0.025269115
+    - time: 2.5333335
+      value: 0.7138284
+      inTangent: -0.0013840211
+      outTangent: -0.0013840211
+  - boneIndex: 34
+    keyframes:
+    - time: 0
+      value: 0.9211891
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 0.9211891
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.17810921
+      inTangent: 0
+      outTangent: 0
+  sclXCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 1
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 2
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 3
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 5
+    keyframes:
+    - time: 1
+      value: 1.0000004
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 6
+    keyframes:
+    - time: 1
+      value: 0.99999976
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: 1
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 8
+    keyframes:
+    - time: 1
+      value: 0.99999976
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 9
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 10
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 11
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 12
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 15
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 16
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 23
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 27
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 28
+    keyframes:
+    - time: 1
+      value: 0.9999997
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 29
+    keyframes:
+    - time: 1
+      value: 1.0000017
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 30
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 33
+    keyframes:
+    - time: 1
+      value: 0.9999984
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 34
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.99999994
+      inTangent: 0
+      outTangent: 0
+  sclYCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 1
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 2
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 3
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 5
+    keyframes:
+    - time: 1
+      value: 1.0000004
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 6
+    keyframes:
+    - time: 1
+      value: 0.99999976
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: 1
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 8
+    keyframes:
+    - time: 1
+      value: 0.99999976
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 9
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 10
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 11
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 12
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 15
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 16
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 23
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 27
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 28
+    keyframes:
+    - time: 1
+      value: 0.9999997
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 29
+    keyframes:
+    - time: 1
+      value: 1.0000017
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 30
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 33
+    keyframes:
+    - time: 1
+      value: 0.9999984
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 34
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.99999994
+      inTangent: 0
+      outTangent: 0
+  sclZCurves:
+  - boneIndex: 0
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 1
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 2
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 3
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 4
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 5
+    keyframes:
+    - time: 1
+      value: 1.0000004
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 6
+    keyframes:
+    - time: 1
+      value: 0.99999976
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 7
+    keyframes:
+    - time: 0
+      value: 1
+      inTangent: 0
+      outTangent: 0
+    - time: 2.5333335
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 8
+    keyframes:
+    - time: 1
+      value: 0.99999976
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 9
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 10
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 11
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 12
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 13
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 14
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 15
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 16
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 17
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 18
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 19
+    keyframes:
+    - time: 1
+      value: 0.9999987
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 20
+    keyframes:
+    - time: 1
+      value: 1.0000002
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 21
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 22
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 23
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 24
+    keyframes:
+    - time: 1
+      value: 1.0000008
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 25
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 26
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 27
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 28
+    keyframes:
+    - time: 1
+      value: 0.9999997
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 29
+    keyframes:
+    - time: 1
+      value: 1.0000017
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 30
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 31
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 32
+    keyframes:
+    - time: 1
+      value: 1
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 33
+    keyframes:
+    - time: 1
+      value: 0.9999984
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 34
+    keyframes:
+    - time: 1
+      value: 1.0000001
+      inTangent: 0
+      outTangent: 0
+  - boneIndex: 35
+    keyframes:
+    - time: 1
+      value: 0.99999994
+      inTangent: 0
+      outTangent: 0
